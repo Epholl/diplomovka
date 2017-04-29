@@ -54,9 +54,20 @@
     urlcolor=black
 }
 
+% biblopgraphy
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+ 
+\usepackage[backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+
 \makeatletter
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \makeatother
+
+% under the line notes numbering per page
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
 
 % paragraphs settings
 \setlength{\parindent}{0pt}
@@ -125,7 +136,7 @@
 \newcommand{\specialsection}[1]
 {
 	\section*{#1}
-	\addcontentsline{toc}{section}{#1}
+	\addcontentsline{toc}{section}{\protect\numberline{}#1}
 }
 
 % definitions
@@ -201,9 +212,10 @@
 
 \newpage
 
-\begin{Large}
-	\textbf{Glossary}
-\end{Large}
+\pagenumbering{arabic}
+\setcounter{page}{4}
+
+\specialsection{Definitions}
 
 \begin{definitions}
 	\item[Bone] In 3D graphics, part of the virtual skeleton used to deform the shape of the object.
@@ -228,23 +240,23 @@
 
 \section{Introduction}
 
-\setcounter{page}{1}
-\pagenumbering{arabic}
-
 One of the typical gameplay mechanics in the video games are boss battles. The boss battle is usually a special event where the player character battles against an uncommon enemy. This can be either much stronger enemy with more health and attack power than common enemies or the fight can use special rules and be divided to several phases.
 
 \imgfigure{eph2}{Final boss battle in Jamestown.}
 \imgfigure{eph2}{Final boss battle in Jamestown.}
-\imgfigure{eph2}{Final boss battle in Jamestown.}
 
-In some games the boss battles are designed as a puzzle. Boss can attack or behave in some predefined pattern and reacts to player actions. Player is expected to study how this mechanics works and to figure from the observation how to defeat the boss. Some requirements have to be respected; for example, the behavior pattern of the boss have to be observable and predictable (to some degree). In bad designs, the gameplay can become too chaotic or random, negating the requirement of the observation of the boss. The observation phase can be simplified by directly provided hints to the player, as is more common in newer games, or indirectly by clues which can be found during the game walk through.
+In some games the boss battles are designed as a puzzle. Boss can attack or behave in some predefined pattern and reacts to player actions. Player is expected to study how this mechanics works and to figure from the observation how to defeat the boss. Some requirements have to be respected; for example, the behavior pattern of the boss have to be observable and predictable (to some degree). In bad designs, the gameplay can become too chaotic or random\footnote{This can be further explained here}, negating the requirement of the observation of the boss. The observation phase can be simplified by directly provided hints to the player, as is more common in newer games\footnote{This is obvious}, or indirectly by clues which can be found during the game walk through.
+
+\imgfigure[H][\textwidth/2]{eph2}{Final boss battle in Jamestown.}
 
 As the game bosses usually differs from the common enemies, one of the recurring characteristic of them is the size difference in comparison to the player character, where the boss can be much larger. Another characteristic can be the amount of its raw power, either in damage output of his weapons or the amount of health.
 
 
-This is also often the case when the boss fight is designed as a puzzle, so the frontal assault against the boss is not possible or feasible. For example, in the video game Jamestown, the fight against the final boss is divided to two parts. In the first part, the boss alters between a phase when he is vulnerable and a phase when he covers itself in an impenetrable armor and launches an attack against the player character. After he is defeated, he changes the form and second phase began. This phase can be seen in the \reffigure{jamestown-boss-battle}. The boss is located in the center and location of the player character is in right bottom. In current situation, the boss is invincible. The player have to attack the cubes which floats around the boss. When the cube is damaged, it will collide with the boss and damages him. When this happens the boss retaliates back with a strong attack against the player. In this case, the cubes can be instead used by the player as a shield. The battle ends when the boss health (yellow bar near the top) is depleted or when the player character dies.
+This is also often the case when the boss fight is designed as a puzzle, so the frontal assault against the boss is not possible or feasible. For example, in the video game Jamestown, the fight against the final boss is divided to two parts. In the first part, the boss alters between a phase when he is vulnerable and a phase when he covers itself in an impenetrable armor and launches\footnote{Yet another footnote} an attack against the player character. After he is defeated, he changes the form and second phase began. This phase can be seen in the \reffigure{jamestown-boss-battle}. The boss is located in the center and location of the player character is in right bottom. In current situation, the boss is invincible. The player have to attack the cubes which floats around the boss. When the cube is damaged, it will collide with the boss and damages him. When this happens the boss retaliates back with a strong attack against the player. In this case, the cubes can be instead used by the player as a shield. The battle ends when the boss health (yellow bar near the top) is depleted or when the player character dies.
 
 As bosses in boss battles can be quite large and their behavior much more complex in comparison to common enemies, they also brings some technical challenges. For example, Nintendo Entertainment System game console allows only limited amount of sprites to be shown at the same time and their maximum size was constrained. To overcome this limitations, the boss was usually drawn using background tiles. Because of this, the actual background of the battle scene was just black color. This can be seen in the \reffigure{nes-black-background-boss}, where the boss (green dragon) is quite large in comparison to the player character, the background is black and the blocks on which the player characters stands are actually created using a sprites \rref{D'Angelo}{2014}.
+
+\specialsection{Test 2}
 
 The goal of this thesis is to implement the boss battle mechanics from the video game Shadow of the Colossus. The boss battles in this game were puzzle based and their implementation marks it as one of the most advanced video games on its original target platform. The thesis will focus on implementation of the technical aspects of Shadow of the Colossus game in the Unity engine. This work is done for the Zaibatsu Interactive Inc. 
 
@@ -256,10 +268,6 @@ Shadow of the Colossus is an action adventure game, released for PlayStation 2 c
 
 \subsection{Gameplay mechanics}
 
-\imgfigure{eph1}{Final boss battle in Jamestown.}
-\imgfigure{eph1}{Final boss battle in Jamestown.}
-
-
 Colossi are huge creatures of various forms, usually shaped as humanoids or animals. Their sizes are between 30 to 300 meters in height or length. They are composed of flesh, usually covered with fur, and stone parts, formed in shape of an armor or weapon. Typical look of a colossus and its comparison against the player character can be seen on the \reffigure{colossus-screen}. Every colossus has some number of weak points.  These points can be stabbed by sword, thus lowering the amount of colossus hit points. Each weak point can absorb only a limited amount of damage. When this amount is used, the weak point will disappear and is either replaced by another in other location, or the colossus will die, if it was the last one. The player can locate an active weak point by using a mini game: when raising his sword a number of light rays will show, concentrating on the direction to the next point. Because of this, some time is usually spent exploring the body of colossus for finding the active weak point.
 
 
@@ -270,5 +278,8 @@ A player can freely navigate on colossus restricted just by its shape and availa
 \subsection{Target platform}
 
 During the time of its release, Shadow of the Colossus was exclusive PlayStation 2 game. It was released in the end of the life cycle of this console, therefore the dev...
+
+\nocite{*}
+\printbibliography
 
 \end{document}
