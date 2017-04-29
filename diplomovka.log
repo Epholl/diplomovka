@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.26)  27 APR 2017 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.26)  29 APR 2017 20:29
 entering extended mode
 **./diplomovka.tex
 (diplomovka.tex
@@ -431,6 +431,9 @@ File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks19
 \c@AM@survey=\count91
 \AM@templatesizebox=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tkz-euclide\tkz-euclide.sty"
 Package: tkz-euclide 2011/06/01 1.16 c for plots 2d 
@@ -1050,7 +1053,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 51.
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
@@ -1229,7 +1232,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \imgfigure with sig. 'O{h}O{0pt}mm' on line 91.
+. Defining command \imgfigure with sig. 'O{h}O{0pt}mm' on line 95.
 .................................................
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\environ\environ.sty"
@@ -1240,26 +1243,36 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks40
 )
-No file diplomovka.aux.
+(diplomovka.aux
+
+LaTeX Warning: Label `fig:eph2' multiply defined.
+
+
+LaTeX Warning: Label `fig:eph2' multiply defined.
+
+
+LaTeX Warning: Label `fig:eph1' multiply defined.
+
+)
 \openout1 = `diplomovka.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 186.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 190.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -1338,7 +1351,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 186.
+Package hyperref Info: Link coloring ON on input line 190.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1347,21 +1360,30 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count278
 )
-LaTeX Info: Redefining \ref on input line 186.
-LaTeX Info: Redefining \pageref on input line 186.
-LaTeX Info: Redefining \nameref on input line 186.
+LaTeX Info: Redefining \ref on input line 190.
+LaTeX Info: Redefining \pageref on input line 190.
+LaTeX Info: Redefining \nameref on input line 190.
+
+(diplomovka.out) (diplomovka.out)
 \@outlinefile=\write4
 \openout4 = `diplomovka.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 192.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 196.
+ (diplomovka.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+)
 \tf@toc=\write5
 \openout5 = `diplomovka.toc'.
 
+ [1
 
-[1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (diplomovka.lof)
 \tf@lof=\write6
 \openout6 = `diplomovka.lof'.
 
@@ -1369,84 +1391,114 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.198 \newpage
-               [2]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 205.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+l.202 \newpage
+               [2]pdfTeX warning (ext4): destination with the same identifier (
+name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.225 \section{Introduction}
-                             [3]
+l.229 \section{Introduction}
+                             [3] <eph2.jpg, id=54, 454.69875pt x 200.75pt>
+File: eph2.jpg Graphic file (type jpg)
 
-LaTeX Warning: Reference `fig:jamestown-boss-battle' on page 1 undefined on inp
-ut line 237.
+<use eph2.jpg>
+Package pdftex.def Info: eph2.jpg used on input line 236.
+(pdftex.def)             Requested size: 418.25545pt x 184.66159pt.
+File: eph2.jpg Graphic file (type jpg)
+ <use eph2.jpg>
+Package pdftex.def Info: eph2.jpg used on input line 237.
+(pdftex.def)             Requested size: 418.25545pt x 184.66159pt.
+File: eph2.jpg Graphic file (type jpg)
+ <use eph2.jpg>
+Package pdftex.def Info: eph2.jpg used on input line 238.
+(pdftex.def)             Requested size: 418.25545pt x 184.66159pt.
 
 
-LaTeX Warning: Reference `fig:jamestown-boss-battle' on page 1 undefined on inp
-ut line 237.
-
-
-LaTeX Warning: Reference `fig:nes-black-background-boss' on page 1 undefined on
- input line 239.
-
-
-LaTeX Warning: Reference `fig:nes-black-background-boss' on page 1 undefined on
- input line 239.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1
 
-] [2]
+ <./eph2.jpg>]
+
+LaTeX Warning: Reference `fig:jamestown-boss-battle' on page 2 undefined on inp
+ut line 245.
+
+
+LaTeX Warning: Reference `fig:jamestown-boss-battle' on page 2 undefined on inp
+ut line 245.
+
+
+LaTeX Warning: Reference `fig:nes-black-background-boss' on page 2 undefined on
+ input line 247.
+
+
+LaTeX Warning: Reference `fig:nes-black-background-boss' on page 2 undefined on
+ input line 247.
+
+[2] [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 245.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 253.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 245.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 253.
+ <eph1.jpg, id=68, 454.69875pt x 606.265pt>
+File: eph1.jpg Graphic file (type jpg)
+ <use eph1.jpg>
+Package pdftex.def Info: eph1.jpg used on input line 259.
+(pdftex.def)             Requested size: 418.25545pt x 557.67805pt.
 
 
-LaTeX Warning: Reference `fig:colossus-screen' on page 3 undefined on input lin
-e 251.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: eph1.jpg Graphic file (type jpg)
+<use eph1.jpg>
+Package pdftex.def Info: eph1.jpg used on input line 260.
+(pdftex.def)             Requested size: 418.25545pt x 557.67805pt.
 
 
-LaTeX Warning: Reference `fig:colossus-screen' on page 3 undefined on input lin
-e 251.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3
 
-] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+LaTeX Warning: Reference `fig:colossus-screen' on page 4 undefined on input lin
+e 263.
+
+
+LaTeX Warning: Reference `fig:colossus-screen' on page 4 undefined on input lin
+e 263.
+
+[4
+
+] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
+ [6 <./eph1.jpg>] [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
  (diplomovka.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package rerunfilecheck Info: File `diplomovka.out' has not changed.
+(rerunfilecheck)             Checksum: 8A2EBB8B88B7EC0A4D98CD77B456B38F;301.
 
-
-Package rerunfilecheck Warning: File `diplomovka.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `diplomovka.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  8A2EBB8B88B7EC0A4D98CD77B456B38F;301.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
  ) 
 Here is how much of TeX's memory you used:
- 30293 strings out of 493333
- 590707 string characters out of 3139188
- 663825 words of memory out of 3000000
- 33320 multiletter control sequences out of 15000+200000
- 13360 words of font info for 27 fonts, out of 3000000 for 9000
+ 30358 strings out of 493333
+ 591626 string characters out of 3139188
+ 664490 words of memory out of 3000000
+ 33356 multiletter control sequences out of 15000+200000
+ 15551 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,72p,10363b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,11n,72p,10363b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmr8a.pfb>
-Output written on diplomovka.pdf (7 pages, 44380 bytes).
+pe1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on diplomovka.pdf (10 pages, 123210 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

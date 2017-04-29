@@ -13,6 +13,10 @@
 % pdf packages
 \usepackage{pdfpages}
 
+% custom figure counting
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+
 % geometry packages
 \usepackage{tkz-euclide}
 \usetkzobj{angles}
@@ -229,6 +233,10 @@
 
 One of the typical gameplay mechanics in the video games are boss battles. The boss battle is usually a special event where the player character battles against an uncommon enemy. This can be either much stronger enemy with more health and attack power than common enemies or the fight can use special rules and be divided to several phases.
 
+\imgfigure{eph2}{Final boss battle in Jamestown.}
+\imgfigure{eph2}{Final boss battle in Jamestown.}
+\imgfigure{eph2}{Final boss battle in Jamestown.}
+
 In some games the boss battles are designed as a puzzle. Boss can attack or behave in some predefined pattern and reacts to player actions. Player is expected to study how this mechanics works and to figure from the observation how to defeat the boss. Some requirements have to be respected; for example, the behavior pattern of the boss have to be observable and predictable (to some degree). In bad designs, the gameplay can become too chaotic or random, negating the requirement of the observation of the boss. The observation phase can be simplified by directly provided hints to the player, as is more common in newer games, or indirectly by clues which can be found during the game walk through.
 
 As the game bosses usually differs from the common enemies, one of the recurring characteristic of them is the size difference in comparison to the player character, where the boss can be much larger. Another characteristic can be the amount of its raw power, either in damage output of his weapons or the amount of health.
@@ -248,7 +256,12 @@ Shadow of the Colossus is an action adventure game, released for PlayStation 2 c
 
 \subsection{Gameplay mechanics}
 
+\imgfigure{eph1}{Final boss battle in Jamestown.}
+\imgfigure{eph1}{Final boss battle in Jamestown.}
+
+
 Colossi are huge creatures of various forms, usually shaped as humanoids or animals. Their sizes are between 30 to 300 meters in height or length. They are composed of flesh, usually covered with fur, and stone parts, formed in shape of an armor or weapon. Typical look of a colossus and its comparison against the player character can be seen on the \reffigure{colossus-screen}. Every colossus has some number of weak points.  These points can be stabbed by sword, thus lowering the amount of colossus hit points. Each weak point can absorb only a limited amount of damage. When this amount is used, the weak point will disappear and is either replaced by another in other location, or the colossus will die, if it was the last one. The player can locate an active weak point by using a mini game: when raising his sword a number of light rays will show, concentrating on the direction to the next point. Because of this, some time is usually spent exploring the body of colossus for finding the active weak point.
+
 
 For approaching these weak points, a player character has to literally climb the colossus, which is due to its massive size. As every colossus is different in shape or behavior, and the battle occurs in different places, the way to climb a colossus changes as well. Moving on the colossus follows the same principles as moving on terrain, and is similar to mechanics used in other platforming games. The player can move on horizontal surfaces, climb over ledges, formed by a colossus's stone parts, or grab on and climb a vertical surfaces covered with colossus's fur or vegetation. One of the unique feature of the game is in the combination of these mechanics with colossus's dynamic, moving body.
 
