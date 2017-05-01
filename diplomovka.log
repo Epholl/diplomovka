@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.26)  1 MAY 2017 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.26)  2 MAY 2017 01:38
 entering extended mode
 **./diplomovka.tex
 (diplomovka.tex
@@ -1517,21 +1517,21 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 (diplomovka.aux)
 \openout1 = `diplomovka.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 211.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 213.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1562,15 +1562,15 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \celsius on input line 211.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 211
+LaTeX Info: Redefining \celsius on input line 213.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 213
 .
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 211.
-Package gensymb Info: Using \Omega for \ohm on input line 211.
+LaTeX Info: Redefining \ohm on input line 213.
+Package gensymb Info: Using \Omega for \ohm on input line 213.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1622,7 +1622,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 211.
+Package hyperref Info: Link coloring ON on input line 213.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1631,9 +1631,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count407
 )
-LaTeX Info: Redefining \ref on input line 211.
-LaTeX Info: Redefining \pageref on input line 211.
-LaTeX Info: Redefining \nameref on input line 211.
+LaTeX Info: Redefining \ref on input line 213.
+LaTeX Info: Redefining \pageref on input line 213.
+LaTeX Info: Redefining \nameref on input line 213.
 
 (diplomovka.out) (diplomovka.out)
 \@outlinefile=\write6
@@ -1647,10 +1647,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'diplomovka.bbl' found.
  (diplomovka.bbl)
-Package biblatex Info: Reference section=0 on input line 211.
-Package biblatex Info: Reference segment=0 on input line 211.
+Package biblatex Info: Reference section=0 on input line 213.
+Package biblatex Info: Reference segment=0 on input line 213.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 217.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 219.
  (diplomovka.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
@@ -1660,18 +1660,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 7.
-)
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
 \tf@toc=\write7
 \openout7 = `diplomovka.toc'.
 
- [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [4
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.225 \newpage
+               [2] [4
 
 ] [5] [6
 
 ] [7]
-<vesper_peak_vive_real.jpg, id=98, 1204.5pt x 451.6875pt>
+<vesper_peak_vive_real.jpg, id=226, 1204.5pt x 451.6875pt>
 File: vesper_peak_vive_real.jpg Graphic file (type jpg)
 
 <use vesper_peak_vive_real.jpg>
@@ -1688,7 +1693,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
 [8
 
 ] [9 <./vesper_peak_vive_real.jpg>]
-Overfull \hbox (1.43033pt too wide) in paragraph at lines 273--274
+Overfull \hbox (1.43033pt too wide) in paragraph at lines 271--272
 \OT1/ptm/m/n/12 Since the tech-no-log-i-cal con-cepts have al-ready been de-fin
 ed and the age of mi-crochips steadily
  []
@@ -1697,44 +1702,56 @@ ed and the age of mi-crochips steadily
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 364.
+(Font)              <7> on input line 356.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 364.
+(Font)              <5> on input line 356.
  [22] [23] [24]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 382.
+[25] [26] [27] [28] [29] [30] [31
+
+] [32] [33] [34] [35] [36] [37] [38] [39]
+[40]
+Overfull \hbox (6.15768pt too wide) in paragraph at lines 536--537
+\OT1/ptm/m/n/12 res-o-lu-tion of 1280 x 720px (in-creased den-sity) and a bet-t
+er cam-era res-o-lu-tion of 5MP promises
+ []
+
+[41] [42] [43] [44] [45] [46
+
+] [47] [48] [49]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 621.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (14.0655pt too wide) in paragraph at lines 383--383
+Overfull \hbox (14.0655pt too wide) in paragraph at lines 622--622
 []\OT1/ptm/m/n/12 Donald Knuth. \OT1/ptm/m/it/12 Knuth: Com-put-ers and Type-se
 t-ting\OT1/ptm/m/n/12 . \OT1/ptm/m/sc/12 url\OT1/ptm/m/n/12 : [][]$\OT1/pcr/m/n
 /12 http : / / www -[] cs -[] faculty .
  []
 
-[25
+[50
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 384.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 384.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 623.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 623.
  (diplomovka.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 384.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 384.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 623.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 623.
 Package rerunfilecheck Info: File `diplomovka.out' has not changed.
-(rerunfilecheck)             Checksum: CE7A3C72356DD9249B5217B735E5D39B;1112.
+(rerunfilecheck)             Checksum: 76E3E9F905463BAFE7102B78EB2770F9;2953.
 Package logreq Info: Writing requests to 'diplomovka.run.xml'.
 \openout1 = `diplomovka.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37868 strings out of 493333
- 725216 string characters out of 3139188
- 1171549 words of memory out of 3000000
- 40739 multiletter control sequences out of 15000+200000
+ 37945 strings out of 493333
+ 726307 string characters out of 3139188
+ 1172585 words of memory out of 3000000
+ 40765 multiletter control sequences out of 15000+200000
  25358 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,72p,10363b,1681s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,12n,72p,10363b,1894s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
@@ -1742,9 +1759,9 @@ e1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/cour
 ier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diplomovka.pdf (23 pages, 295883 bytes).
+Output written on diplomovka.pdf (49 pages, 375930 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -31,3 +31,53 @@
 \contentsline {subsubsection}{\numberline {3.1.3}Virtual Reality Sickness}{22}{subsubsection.3.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}AR / VR Device Classification}{23}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Display Characteristics}{26}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Development Support}{29}{subsection.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.1}Unity 3D}{30}{subsubsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Current AR / VR Market}{31}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Virtual Reality}{31}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Google Cardboard}{31}{subsubsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}Samsung GearVR}{32}{subsubsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3}Google Daydream}{33}{subsubsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.4}Oculus Rift}{33}{subsubsection.4.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.5}HTC Vive}{35}{subsubsection.4.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.6}Playstation VR}{37}{subsubsection.4.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Augmented Reality}{38}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}AR Frameworks}{39}{subsubsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2}Epson Moverio BT200/300}{40}{subsubsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3}Google Glass}{42}{subsubsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.4}Lenovo Phab 2 PRO}{42}{subsubsection.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5}Microsoft HoloLens}{44}{subsubsection.4.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Own AR / VR System Implementation}{46}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Augmented Reality with Vuforia}{46}{subsection.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.1}Goal}{46}{subsubsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Implementation}{46}{subsection.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1}Results}{47}{subsubsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Positional Tracking with GearVR}{48}{subsection.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.1}Goal}{48}{subsubsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.2}Marvelmind Indoor Navigation System Principles}{49}{subsubsection.5.3.2}
