@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.26)  2 MAY 2017 01:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.26)  2 MAY 2017 04:52
 entering extended mode
 **./diplomovka.tex
 (diplomovka.tex
@@ -1649,20 +1649,117 @@ Package biblatex Info: ... file 'diplomovka.bbl' found.
  (diplomovka.bbl)
 Package biblatex Info: Reference section=0 on input line 213.
 Package biblatex Info: Reference segment=0 on input line 213.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 219.
- (diplomovka.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 222.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 228.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] <zadanie.pdf, id=217, 597
+.50829pt x 845.0471pt>
+File: zadanie.pdf Graphic file (type pdf)
+
+<use zadanie.pdf>
+Package pdftex.def Info: zadanie.pdf used on input line 246.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: zadanie.pdf Graphic file (type pdf)
+ <use zadanie.pdf>
+Package pdftex.def Info: zadanie.pdf used on input line 246.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<zadanie.pdf, id=220, page=1, 597.50829pt x 845.0471pt>
+File: zadanie.pdf Graphic file (type pdf)
+
+<use zadanie.pdf, page 1>
+Package pdftex.def Info: zadanie.pdf, page1 used on input line 246.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: zadanie.pdf Graphic file (type pdf)
+ <use zadanie.pdf, page 1>
+Package pdftex.def Info: zadanie.pdf, page1 used on input line 246.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: zadanie.pdf Graphic file (type pdf)
+ <use zadanie.pdf, page 1>
+Package pdftex.def Info: zadanie.pdf, page1 used on input line 246.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: zadanie.pdf Graphic file (type pdf)
+
+<use zadanie.pdf, page 1>
+Package pdftex.def Info: zadanie.pdf, page1 used on input line 246.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: zadanie.pdf Graphic file (type pdf)
+ <use zadanie.pdf, page 1>
+Package pdftex.def Info: zadanie.pdf, page1 used on input line 246.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.246 \includepdf{zadanie.pdf}
+                               [1 <./zadanie.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 252.
+
+Overfull \hbox (15.65137pt too wide) in paragraph at lines 252--257
+\OT1/ptm/m/n/12 Vyhlasujem, []ze som diplo-mov[]u pr[]acu vypra-co-val samostat
+ne, pod odborn[]ym ve-den[]m ved[]uceho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--257
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.258 \end{titlepage}
+                      [1]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 261.
+
+Overfull \hbox (13.59776pt too wide) in paragraph at lines 262--264
+\OT1/ptm/m/n/12 Pr[]aca sa venuje mo-ment[]alnemu stavu trhu pre zari-ade-nia s
+l[]u[]ziace na sprostred-ko-vanie virtu[]alnej
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.264 \end{titlepage}
+                      [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.270 \end{titlepage}
+                      [1
+
+] (diplomovka.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 7.
- [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 ...6}Playstation VR}{41}{subsubsection.4.1.6}
+                                                   [1])
 \tf@toc=\write7
 \openout7 = `diplomovka.toc'.
 
@@ -1670,98 +1767,115 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.225 \newpage
-               [2] [4
+l.281 \newpage
+               [2] [8
 
-] [5] [6
+] [9] [10
 
-] [7]
-<vesper_peak_vive_real.jpg, id=226, 1204.5pt x 451.6875pt>
+] [11]
+<vesper_peak_vive_real.jpg, id=339, 1204.5pt x 451.6875pt>
 File: vesper_peak_vive_real.jpg Graphic file (type jpg)
 
 <use vesper_peak_vive_real.jpg>
-Package pdftex.def Info: vesper_peak_vive_real.jpg used on input line 259.
+Package pdftex.def Info: vesper_peak_vive_real.jpg used on input line 315.
 (pdftex.def)             Requested size: 441.01773pt x 165.38492pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 261.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 261.
-[8
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 317.
+[12
 
-] [9 <./vesper_peak_vive_real.jpg>]
-Overfull \hbox (1.43033pt too wide) in paragraph at lines 271--272
+] [13 <./vesper_peak_vive_real.jpg>]
+Overfull \hbox (1.43033pt too wide) in paragraph at lines 327--328
 \OT1/ptm/m/n/12 Since the tech-no-log-i-cal con-cepts have al-ready been de-fin
 ed and the age of mi-crochips steadily
  []
 
-[10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21
+[14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 356.
+(Font)              <7> on input line 412.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 356.
- [22] [23] [24]
-[25] [26] [27] [28] [29] [30] [31
+(Font)              <5> on input line 412.
+ [26] [27] [28]
+[29] [30] [31] [32] [33] [34] [35
 
-] [32] [33] [34] [35] [36] [37] [38] [39]
-[40]
-Overfull \hbox (6.15768pt too wide) in paragraph at lines 536--537
+] [36] [37] [38] [39] [40] [41] [42] [43]
+[44]
+Overfull \hbox (6.15768pt too wide) in paragraph at lines 592--593
 \OT1/ptm/m/n/12 res-o-lu-tion of 1280 x 720px (in-creased den-sity) and a bet-t
 er cam-era res-o-lu-tion of 5MP promises
  []
 
-[41] [42] [43] [44] [45] [46
+[45] [46] [47] [48] [49] [50
 
-] [47] [48] [49]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 621.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (14.0655pt too wide) in paragraph at lines 622--622
-[]\OT1/ptm/m/n/12 Donald Knuth. \OT1/ptm/m/it/12 Knuth: Com-put-ers and Type-se
-t-ting\OT1/ptm/m/n/12 . \OT1/ptm/m/sc/12 url\OT1/ptm/m/n/12 : [][]$\OT1/pcr/m/n
-/12 http : / / www -[] cs -[] faculty .
+] [51] [52] [53] [54]
+Overfull \hbox (0.93771pt too wide) in paragraph at lines 698--699
+\OT1/ptm/m/n/12 men-tioned, us-ing sev-eral wire-less lay-ers and a lerp mech-a
+-nism to smoothen po-si-tional change
  []
 
-[50
+[55] [56] [57] [58] [59] [60] [61] [62]
+Overfull \hbox (8.00595pt too wide) in paragraph at lines 765--766
+\OT1/ptm/m/n/12 ad-van-tages over com-mu-ni-cat-ing the in-for-ma-tion via stan
+-dard chan-nels. Sim-i-larly, smartphone-
+ []
+
+[63
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 623.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 623.
- (diplomovka.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 623.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 623.
+Underfull \hbox (badness 10000) in paragraph at lines 773--775
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 775.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 775.
+ [64] [65] [66
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 784.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 784.
+
+(diplomovka.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 784.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 784.
 Package rerunfilecheck Info: File `diplomovka.out' has not changed.
-(rerunfilecheck)             Checksum: 76E3E9F905463BAFE7102B78EB2770F9;2953.
+(rerunfilecheck)             Checksum: D47B72B94D89488FB00B5B38E655D18A;3803.
 Package logreq Info: Writing requests to 'diplomovka.run.xml'.
 \openout1 = `diplomovka.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37945 strings out of 493333
- 726307 string characters out of 3139188
- 1172585 words of memory out of 3000000
- 40765 multiletter control sequences out of 15000+200000
- 25358 words of font info for 50 fonts, out of 3000000 for 9000
+ 37815 strings out of 493333
+ 723500 string characters out of 3139188
+ 1172590 words of memory out of 3000000
+ 40612 multiletter control sequences out of 15000+200000
+ 27437 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,72p,10363b,1894s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,18n,72p,10363b,1894s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/cour
-ier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diplomovka.pdf (49 pages, 375930 bytes).
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on diplomovka.pdf (66 pages, 507995 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 646 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 454 words of extra memory for PDF output out of 10000 (max. 10000000)
 
