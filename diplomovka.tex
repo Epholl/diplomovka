@@ -700,6 +700,8 @@ After importing to Unity, a new prefab (a pre-prepared asset storing a Unity Gam
 
 As the application only serves demonstration purposes, four out of eight buttons were modelled - forwards and backwards movement, turret rotation and firing the main gun. The virtual tank was positioned approximately 5 centimetres in front of the controller. After clicking one of the movement buttons, the tank would accelerate in the relevant direction, disappear, and return to the original position from the other side. Turret rotation button would trigger a 360\degree~ rotation animation of the turret, alternating rotation direction every other time. The last button fires the gun - a light and a simple particle effect is activated for a short period. All animations can be performed simultaneously.
 
+\imgfigure[h][\textwidth/4]{vuforia1}{A side-by side comparison of the toy controller with the application running and without it. The virtual tank's position is fixed.}
+
 \subsubsection{Results}
 The questions that were to be answered by this prototype were how precise can a common smartphone be for augmented reality use, as well as what are the real constraints of this approach. It was also important to find out the performance gap between this solution and devices employing specialised sensor hardware.
 
@@ -739,7 +741,7 @@ The position translation technology consisted of a set of 3 points used to conve
 
 The improvised controller added in the system consisted of a second hedgehog beacon and a wireless mouse connected to the host PC running a Unity program which displayed the scene on the screen as well as monitoring the controller position and mouse clicks, forwarding them via UDP to the GearVR application.
 
-\imgfigure[h][\textwidth/2]{gabika_holodeck}{The GearVR positioiinig system being used. One hedgehog beacon is used for headset tracking, the other one controlls the pointer. One of the static beacons is visible in the upper right corner.}
+\imgfigure[h][\textwidth/2]{gabika_holodeck}{The GearVR positioinig system being used. One hedgehog beacon is used for headset tracking, the other one controlls the pointer. One of the static beacons is visible in the upper right corner.}
 
 \subsubsection{Results}
 Testing this solution proved there is potential of such VR arrangement, although it suffers from severely low precision, especially when compared to full-scale VR headsets like Vive or Rift (with neither of them available at the time).
@@ -777,6 +779,8 @@ Querying depth data from Tango returns them in the form of a \\textbf{Point Clou
 Tango offers support for native C, Java and Unity with a set of high-level prefabs already available for Unity development.
 
 \subsubsection{Devices Running Tango}
+\imgfigure[h][\textwidth/4]{tango_devices}{Phab 2 PRO alongside the Yellowstone development kit tablet. Both devices are fairly big and sport an above average battery to support Tango well.}
+
 There is currently a single Tango-enabled commercial device available - Lenovo Phab 2 PRO and one announced - ASUS ZenFone AR. Up until November 2016, Tango Development Kit containing the Yellowstone 7" tablet was available in Northern US. When running the same apps, Phab 2 PRO seems to have roughly twice the framerate to Yellowstone. The tablet also suffers from slowly losing support for new Tango Core releases leading to crashes and exceptions running newest Tango applications (with Phab 2 PRO not being absolutely safe too).
 
 \subsubsection{Implementation}
@@ -786,9 +790,15 @@ The Unity application is composed of 4 main scenes and is able to run in both Un
 
 The ScanningScene screen is responsible for creating or appending to area description files. As the users create area descriptions, an experimental mesh gets displayed in the area to indicate the part of the room has been scanned. The mesh does not show when appending to already existing area descriptions.
 
+\imgfigure[h][\textwidth/4]{tango_learning}{An experimental mesh was drawn where Tango reported knowledge of the area.}
+
 ErrorScene is a simple screen that gets displayed should the Tango service throw an exception to help with application debugging.
 
 The most important screen - LevelScene, is where the areas are actually interacted with. After opening an area, Tango attempts to locate itself within the area and then allows the user to position objects (a simple cube, sphere, or a plane) along the area’s planes. The objects can only be placed onto the area description mesh, that means incorrect positioning by Tango is detectable when the pointer located in the center of the screen does not display an object. In this case there is no underlying mesh where the device is pointing meaning the area description model and reality do not line up. Both AR scenes - scanning and level, use the Tango Manager, Tango AR Camera, and PointCloud Unity prefabs to access the Tango API.
+
+\imgfigure[h][\textwidth/4]{tango_level}{Virtual objects visibly placed within the area are visible on the same spot after closing and reopening the application.}
+
+\imgfigure[h][\textwidth/4]{tango_constructor}{The same area amidst mapping using Open Constructor application.}
 
 \subsubsection{Results}
 Tango is a promising, yet immature platform with a significant amount of issues degrading user experience and complicating development. Even though Phab 2 PRO is considerably more stable than Yellowstone, the amount of system crashes and unspecified behaviours is way too high, experimental features often fail to work or require lengthy debug sessions and specific conditions. The documentation is severely lacking, mostly covering only the basics with more advanced features only present in sample applications without further explanation. Similarly to HoloLens, the technology is not yet very widespread meaning online resources and forums are limited too. The combination of the above makes working with Tango a very unpleasant experience.
