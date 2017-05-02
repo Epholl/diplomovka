@@ -170,9 +170,9 @@
 	{
 		\item \entryref{##1} ##2, ##3, \textit{##4} (##5)
 	}
-	\newcommand{\entrylink}[6]
+	\newcommand{\entrylink}[5]
 	{
-		\item \entryref{##1} ##2, ##3, \textit{##4}, URL (accessed \textit{##6}): \sloppy\url{##5} 
+		\item \entryref{##1} ##2, \textit{##3}, URL: \sloppy\url{##4} 
 	}
 	\newcommand{\entrymanual}[4]
 	{
@@ -258,13 +258,13 @@ V Žiline, dňa 13.4.2017
 \end{titlepage}
 
 \begin{titlepage}
-\specialsection{Abstrakt}
+\section*{Abstrakt}{hide}
 Práca sa venuje momentálnemu stavu trhu pre zariadenia slúžiace na sprostredkovanie virtuálnej a rozšírenej reality. Autor si zvolil za úlohu zanalyzovať súčasný stav, porovnať dostupné riešenia a pomocou vybraného implementovať systém, ktorý by umožňoval kvalitné prepojenie reálneho sveta s virtuálnymi objektami. V úvode sú popísané podmienky aj historické míľniky, ktoré ovplyvňovali vývoj zariadení virtuálnej a rozšírenej reality až po dnešný stav. Následne sú podrobne vysvetlené technické koncepty a požiadavky na rozličné systémy rozšírenej a virtuálnej reality, Po vysvetlení konceptov autor popisuje a porovnáva momentálne najznámejšie a najrozšírenejšie zariadenia a riešenia ako sú napr. Google Cardboard, Samsung GearVR, Oculus Rift a HTC Vive pre virtuálnu realitu a Epson Moverio, Google Glass, Google Tango a Microsoft HoloLens pre rozšírenú realitu. V praktickej časti autor popisuje vytvorenie troch prototypových demonštračných aplikácií, na ktorých sú skúšané koncepty ktoré overujú kvalitu skúšaných systémov alebo rozširujú ich možnosti. Prvým riešením je triviálna Android aplikácia využívajúca Vuforia AR framework na vykreslenie virtuálneho ovládača pre hračkársky RC tank. Druhým popisovaným systémom je riešenie prepojujúce Samsung GearVR a sadu interiérového ultrazvukového navigačného systému umožňujúca detekciu polohy zariadenia a pohyb po miestnosti. Tretím popisovaným riešením je aplikácia postavená nad technológiou Google Tango, ktorá sa snaží preskúmať možnosti Tango frameworku na analýzu miestnosti a vkladanie virtuálnych objektov, ktoré by boli uložené aj potom ako aplikácia stratí polohu alebo je vypnutá.\\ \\
 \textbf{Kľúčové slová:} virtuálna realita, rozšírená realita, Google Tango, SLAM
 \end{titlepage}
 
 \begin{titlepage}
-\specialsection{Abstract}
+\section*{Abstract}{hide}
 The thesis focuses on the current state of augmented and virtual reality devices market. The Author decided to analyze the market, compare the available solutions and chose a technology to implement a system allowing high-quality real and virtual objects mapping. The thesis starts with a brief look into the history and events that influenced augmented and virtual reality development in the past until the current state. After that, the bacis technological concepts for AR / VR systems are explained, as well as the requirements on such systems and the challenges they need to overcome. A deep analysis of the currently available solutions with a list of devices follows - the author adds his personal experience to the devices he had the chance to work with. The devices mentioned are Google Cardboard, Samsung GearVR, Oculus Rift, HTC VIve, Epson Moverio, Google Glass, Google Tango, Microsoft HoloLens and others. In the practical part of the thesis, the author describes creation of three prototype applications meant to evaluate or extend the possibilities of various AR / VR systems. The first prototype is a simple Android application using Vuforia framework to display virtual controls on a toy RC tank controller. The second system is a solution combining Samsung GearVR headset with an ultrasound indoor positioning system to enable position tracking for the device. The last application is based on Google Tango and it attempts to handle persisting virtual objects with their position, ensuring they can be displayed again after the application is turned off.\\ \\
 \textbf{Keywords:} virtual reality, augmented reality, Google Tango, SLAM
 \end{titlepage}
@@ -313,6 +313,8 @@ The advent of devices and technologies, commonly known and classified as virtual
 When looking at the current state of the art technologies, examining The Lab - a set of minigames provided for free as a technological demonstrator for a VR system HTC Vive, one of the games allows users to explore one of 4 locations in complete virtual reality and move around them to a limited extent. The locations are made in photorealistic quality and exhibit real world locations. One of which exhibits Vesper Peak, a peak in North Cascades in Washington (\nswe{48}{00}{47}N \nswe{121}{31}{04}W). The realism and immersion is so high that standing on the edge of a cliff accessible in the virtual location can induce altitude sickness and pushing the person exploring the virtual scene down can result in a panic attack.
 
 \imgfigure{vesper_peak_vive_real}{A comparison of a real photo from Vesper Peak and its representation in HTC Vive}
+
+Cory Ondrejka uses a similar parallel in one of his interview about Facebook and Oculus Rift involvement: a place can be described textually and the recipient then recreates a mental image of it in his or her head. A photo can be incredibly powerful, yet it only captures a single moment in time. By making a video, time is added into the experience. The last step would be the ability to capture the whole area  of a certain place and enabling the recipients to explore it in VR.
 
 \subsection{The Pioneers of VR Concepts}
 Historically, the first attempts at deliberately immersing the viewer in an artistic scene can be seen on 19th century panoramic mural paintings. The whole field of vision was filled by the picture seemingly placing spectators into a different environment.
@@ -779,6 +781,62 @@ From the perspective of the thesis requirements, the following conclusions can b
 
 The technology I chose to implement an area-recognition capable application in was Google Tango on Lenovo’s Phab 2 PRO. Phab 2 PRO is the first commercial device to support Tango and there is potential for it to become the first of many AR-ready Android smartphones on the market. A sample application I created for evaluation used the Tango API to load and save area description files and place virtual objects into the scenes, ensuring the objects are persisted. The demonstration application has shown there is potential in the technology, but the problems encountered prevented further tests and the conclusion is a different area description and recognition mechanism needs to be implemented to utilize the technology to its full extent.
 
-\specialsection{Resources}
+\section{References}
+\begin{references}
+\entrylink{1}{Virtual Reality Society}{History of Virtual Reality}{https://www.vrs.org.uk/virtual-reality/history.html}
+
+\entrylink{2}{Ellis Hamburger}{An Oculus Rift in Every Home}{https://www.theverge.com/a/virtual-reality/qa\_fb}
+
+\entrylink{3}{Steve Mann}{Eye Am a Camera: Surveillance and Sousveillance in the Glassage}{http://techland.time.com/2012/11/02/eye-am-a-camera-surveillance-and-sousveillance-in-the-glassage/}
+
+\entrylink{4}{Roger N. Clark}{Notes on the Resolution and Other Details of the Human Eye}{http://www.clarkvision.com/articles/eye-resolution.html}
+
+\entrylink{5}{Michael Abrash}{Down the VR rabbit hole: Fixing judder}{http://blogs.valvesoftware.com/abrash/down-the-vr-rabbit-hole-fixing-judder/}
+
+\entrylink{6}{David Nield}{How Oculus Rift works: Everything you need to know about the VR sensation}{https://www.wareable.com/oculus-rift/how-oculus-rift-works}
+
+\entrylink{7}{XinReality VR\&AR Wiki}{Constellation}{https://xinreality.com/wiki/Constellation}
+
+\entrylink{8}{Sean Buckley}{This Is How Valve’s Amazing Lighthouse Tracking Technology Works}{http://gizmodo.com/this-is-how-valve-s-amazing-lighthouse-tracking-technol-1705356768}
+
+\entrylink{9}{Edge Online (via web.archive)}{Sony's Anton Mikhailov on Project Morpheus launch price and potential as a platform}{https://web.archive.org/web/20150221012430/http://www.edge-online.com/features/sonys-anton-mikhailov-on-project-morpheus-launch-price-and-potential-as-a-platform/}
+
+\entrylink{10}{Sony Interactive Entertainment press release}{PLAYSTATION®VR SELLS THROUGH 915,000 UNITS WORLDWIDE}{http://www.sie.com/en/corporate/release/2017/170227.html}
+
+\entrylink{23}{Joe Durbin}{Super Data Report: 6.3 Million Virtual Reality Headsets Shipped in 2016}{https://uploadvr.com/report-6-3-million-virtual-reality-headsets-shipped-2016/}
+
+\entrylink{11}{Sophie Charara nd Hugh Langley}{Sony PlayStation VR review}{https://www.wareable.com/sony/sony-playstation-vr-review}
+
+\entrylink{12}{Nils Davis}{Augmented Reality SDK Comparison}{http://socialcompare.com/en/comparison/augmented-reality-sdks}
+
+\entrylink{13}{Epson Australia Pty Limited}{Epson Moverio BT-200 specification}{http://www.epson.com.au/products/projectoraccessories/Moverio_BT-200_Specs.asp}
+
+\entrylink{13}{Epson America, Inc}{Epson Moverio BT-300 specification}{https://tech.moverio.epson.com/en/bt-300/}
+
+\entrylink{14}{Ben Lang}{Google Glass News Bits: Online Manual Reveals New Features, Glass Goes Go Karting}{http://www.roadtovr.com/google-glass-news-manual-features-go-karting/}
+
+\entrylink{15}{Lenovo}{Phab 2 PRO specification}{http://www3.lenovo.com/us/en/smart-devices/-lenovo-smartphones/phab-series/Lenovo-Phab-2-Pro/p/WMD00000220}
+
+\entrylink{16}{Max Eddy}{Google: Future Phones Will Understand, See the World}{http://www.pcmag.com/article2/0,2817,2485294,00.asp}
+
+\entrylink{17}{Omar Soubra}{Hands On: Project Tango, Google’s 3D-Scanning Phone for Makers}{http://makezine.com/2014/03/20/hands-on-project-tango-googles-3d-scanning-phone-for-makers/}
+
+\entrylink{18}{ASUSTeK Computer Inc}{ZenFone AR specification}{https://www.asus.com/Phone/ZenFone-AR-ZS571KL/}
+
+\entrylink{19}{Microsoft}{HoloLens hardware showcase}{https://www.microsoft.com/en-us/hololens/hardware}
+
+\entrylink{20}{Daniel Rubino}{These are the full hardware specifications of the Microsoft HoloLens}{http://www.windowscentral.com/hololens-hardware-specs}
+
+\entrylink{21}{Vuforia Developer Portal}{Natural Features and Image Ratings}{https://library.vuforia.com/articles/Solution/Natural-Features-and-Ratings}
+
+\entrylink{21}{Marvelmind Inc.}{Marvelmind Indoor Navigation System Operating Manual}{http://marvelmind.com/pics/marvelmind_navigation_system_manual.pdf}
+
+\entrylink{22}{Google Developers portal}{Tango Concepts}{https://developers.google.com/tango/overview/concepts}
+
+\entrylink{24}{Sean Kirmani}{augmented reality meshing experiment w/ google's project tango}{https://www.youtube.com/watch?v=sn3bhnPlfcw}
+
+\end{references}
+
+%\item \entryref{##1} ##2, ##3, \textit{##4}, URL (accessed \textit{##6}): \sloppy\url{##5}
 
 \end{document}

@@ -4,10 +4,6 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {}Abstrakt}{}{Doc-Start}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {}Abstract}{}{Doc-Start}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {}Dictionary Acronyms and Abbreviations}{8}{Doc-Start}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{10}{section.1}
@@ -106,4 +102,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Conclusion}{63}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {}Resources}{66}{section.6}
+\contentsline {section}{\numberline {7}References}{66}{section.7}
