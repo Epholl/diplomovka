@@ -12,94 +12,94 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}The Pioneers of VR Concepts}{13}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}1960s - The First Virtual and Augmented Reality Devices Appear}{14}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}1960s - The First Virtual and Augmented Reality Devices Appear}{15}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}1980s - Virtual Reality Comes to Life}{17}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}1980s - Virtual Reality Comes to Life}{19}{subsection.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}2000s - The Development Continues}{20}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}2000s - The Development Continues}{22}{subsection.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Current Technologies}{22}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.5}Current Technologies}{25}{subsection.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Technical Specifications and Requirements}{25}{section.3}
+\contentsline {section}{\numberline {3}Technical Specifications and Requirements}{28}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Basic Concepts}{25}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Basic Concepts}{28}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}Headset Position Detection}{25}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Headset Position Detection}{28}{subsubsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}Displaying Virtual Objects}{26}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2}Displaying Virtual Objects}{29}{subsubsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3}Virtual Reality Sickness}{26}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3}Virtual Reality Sickness}{30}{subsubsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}AR / VR Device Classification}{27}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}AR / VR Device Classification}{30}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Display Characteristics}{30}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Display Characteristics}{34}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Development Support}{33}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.4}Development Support}{37}{subsection.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.1}Unity 3D}{34}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1}Unity 3D}{38}{subsubsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Current AR / VR Market}{35}{section.4}
+\contentsline {section}{\numberline {4}Current AR / VR Market}{40}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Virtual Reality}{35}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}Virtual Reality}{40}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Google Cardboard}{35}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Google Cardboard}{40}{subsubsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Samsung GearVR}{36}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2}Samsung GearVR}{41}{subsubsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3}Google Daydream}{37}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3}Google Daydream}{42}{subsubsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4}Oculus Rift}{37}{subsubsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.4}Oculus Rift}{42}{subsubsection.4.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.5}HTC Vive}{39}{subsubsection.4.1.5}
+\contentsline {subsubsection}{\numberline {4.1.5}HTC Vive}{44}{subsubsection.4.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.6}Playstation VR}{41}{subsubsection.4.1.6}
+\contentsline {subsubsection}{\numberline {4.1.6}Playstation VR}{46}{subsubsection.4.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Augmented Reality}{42}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Augmented Reality}{47}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}AR Frameworks}{43}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1}AR Frameworks}{48}{subsubsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Epson Moverio BT200/300}{44}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2}Epson Moverio BT200/300}{51}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Google Glass}{46}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3}Google Glass}{52}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4}Lenovo Phab 2 PRO}{46}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4}Lenovo Phab 2 PRO}{53}{subsubsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5}Microsoft HoloLens}{48}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.5}Microsoft HoloLens}{55}{subsubsection.4.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Own AR / VR System Implementation}{50}{section.5}
+\contentsline {section}{\numberline {5}Own AR / VR System Implementation}{58}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Augmented Reality with Vuforia}{50}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.1}Augmented Reality with Vuforia}{58}{subsection.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Goal}{50}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Goal}{58}{subsubsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Implementation}{50}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}Implementation}{58}{subsection.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1}Results}{51}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1}Results}{59}{subsubsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Positional Tracking with GearVR}{52}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.3}Positional Tracking with GearVR}{60}{subsection.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1}Goal}{52}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1}Goal}{60}{subsubsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2}Marvelmind Indoor Navigation System Principles}{53}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2}Marvelmind Indoor Navigation System Principles}{61}{subsubsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3}Implementation}{54}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3}Implementation}{62}{subsubsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.4}Results}{55}{subsubsection.5.3.4}
+\contentsline {subsubsection}{\numberline {5.3.4}Results}{63}{subsubsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Augmented Reality with Google Tango}{56}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.4}Augmented Reality with Google Tango}{64}{subsection.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.1}Goal}{56}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.1}Goal}{64}{subsubsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.2}Google Tango}{57}{subsubsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2}Google Tango}{65}{subsubsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.3}Devices Running Tango}{59}{subsubsection.5.4.3}
+\contentsline {subsubsection}{\numberline {5.4.3}Devices Running Tango}{67}{subsubsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.4}Implementation}{59}{subsubsection.5.4.4}
+\contentsline {subsubsection}{\numberline {5.4.4}Implementation}{67}{subsubsection.5.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.5}Results}{60}{subsubsection.5.4.5}
+\contentsline {subsubsection}{\numberline {5.4.5}Results}{68}{subsubsection.5.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.6}Other Concepts}{61}{subsubsection.5.4.6}
+\contentsline {subsubsection}{\numberline {5.4.6}Other Concepts}{69}{subsubsection.5.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{63}{section.6}
+\contentsline {section}{\numberline {6}Conclusion}{71}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}References}{66}{section.7}
+\contentsline {section}{\numberline {7}References}{74}{section.7}
